@@ -217,12 +217,9 @@ body
 
 /* ------------------------------------------------ */
 
-.div_av_login{
-
-}
-
 .av_login{
 	display: none;
 	margin-left: 50px;
 	color: rgb(255, 133, 112);
 }
+

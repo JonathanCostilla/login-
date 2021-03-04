@@ -8,7 +8,7 @@ $(function(){
     var len         =       new RegExp("^(?=.{8,})");
 
     $("#inputPassword").on("keyup", function(){
-    var password = $("#inputPassword").val();
+    var password = $("#inputPassword").val(); 
     if(mayus.test(password) && special.test(password) && numbers.test(password) && lower.test(password) && len.test(password)){
         $("#mensaje").text("Segura").css("color", "green");
     }
